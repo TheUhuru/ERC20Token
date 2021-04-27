@@ -31,7 +31,7 @@ contract SafeMath {
 }
 
 
-contract SheldonCooper is ERC20Interface, SafeMath {
+contract SheldonCooperCoin is ERC20Interface, SafeMath {
     string public name;
     string public symbol;
     uint8 public decimals; // 18 decimals is the strongly suggested default, avoid changing it
@@ -47,7 +47,7 @@ contract SheldonCooper is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "SheldonCooper";
+        name = "SheldonCooperCoin";
         symbol = "SCC";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
